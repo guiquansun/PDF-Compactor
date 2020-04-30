@@ -2,7 +2,7 @@
 a web application that allows users to upload a pdf file and return a compacted version of the file based on the user’s specified DPI. 
 
 # Process Of the whole full_stack
-<img alt="frontend-backend-diagram.png" src="./image/frontend-backend-diagram.png" width="400" text-align="center">
+<img alt="frontend-backend-diagram.png" src="./image/frontend-backend_diagram.png" width="400" text-align="center">
 
 # Tools
 ## Frontend
