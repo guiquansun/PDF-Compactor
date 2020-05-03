@@ -11,11 +11,6 @@
 }
 
 input[type="text"] {
-    /* border: 0;
-    border-bottom: 1px solid #B5D3EF;
-    outline: 0;
-    width: 30ch;
-    text-align: center; */
     background:#fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -38,11 +33,6 @@ input[type="text"] {
     padding-top: 18px;
     height: 70px;
 
-
-    /* padding-top: 18px;
-    top: 53px;
-    z-index: 0;
-    width: 487px; */
 }
 
 .submit-file {

@@ -3,7 +3,7 @@
     <head>
         <title>PDF Compactor</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script> -->
+        
         <link rel="stylesheet" href="stylesheets/index.css">
         <meta charset="utf-8">
 
@@ -68,6 +68,7 @@
     </body>
 
     <script>
+        // display the file name
         function displayFilename(fileInput) {
             const textDisplay = document.getElementById("upload-file-info");
             const fileName = fileInput.value;
@@ -75,16 +76,17 @@
             textDisplay.style.width = Math.max(textDisplay.value.length, 20) + "ch";
         }
 
+        // check if you have uploaded a file or not
         function check(form) {
 
             if (form.pdf.value == '') {
                 alert('Error: File does not exist!');
                 return false;
             }
-            else if (form.pdf.value.lastIndexOf('pdf') === -1) {
+            // else if (form.pdf.value.lastIndexOf('pdf') === -1) {
 
-                alert('Error: It is not a pdf file!');
-            }
+            //     alert('Error: It is not a pdf file!');
+            // }
 
             return true;
 
