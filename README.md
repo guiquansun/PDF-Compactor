@@ -34,7 +34,7 @@ https://github.com/ourarash/shrinkpdf
 
 ```bash
 git clone https://github.com/guiquansun/PDF-Compactor.git 
-cd PDF_Compactor
+cd PDF-Compactor
 npm install
 ```
 
